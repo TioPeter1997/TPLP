@@ -8,7 +8,7 @@ package tp.model.service.impl;
 import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import tp.domain.Fornecedor;
+import br.cefetmg.inf.tp.domain.Fornecedor;
 
 /**
  *

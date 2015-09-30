@@ -2,10 +2,10 @@ package tp.model.service.impl;
 
 import tp.model.dao.IUsuarioDAO;
 import tp.model.dao.impl.UsuarioDAO;
-import tp.domain.Usuario;
-import tp.service.IManterUsuario;
-import tp.util.db.exception.NegocioException;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.domain.Usuario;
+import br.cefetmg.inf.tp.service.IManterUsuario;
+import br.cefetmg.inf.tp.util.db.exception.NegocioException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 import java.util.List;
 import tp.util.CPF;
 

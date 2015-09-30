@@ -1,13 +1,13 @@
 package tp.model.dao.impl;
 
 import tp.model.dao.IUsuarioDAO;
-import tp.domain.Usuario;
+import br.cefetmg.inf.tp.domain.Usuario;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import tp.util.db.ConnectionManager;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 import java.sql.Date;
 
 public class UsuarioDAO implements IUsuarioDAO {

@@ -6,7 +6,7 @@
 package tp.proxy;
 
 
-import tp.service.IManterUsuario;
+import br.cefetmg.inf.tp.service.IManterUsuario;
 import java.net.Socket;
 
 /**

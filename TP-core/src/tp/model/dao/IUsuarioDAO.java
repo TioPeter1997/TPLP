@@ -1,7 +1,7 @@
 package tp.model.dao;
 
-import tp.domain.Usuario;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.domain.Usuario;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 import java.util.ArrayList;
 
 public interface IUsuarioDAO {

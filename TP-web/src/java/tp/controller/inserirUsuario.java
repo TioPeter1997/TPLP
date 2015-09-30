@@ -8,11 +8,11 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import tp.domain.Usuario;
-import tp.service.IManterUsuario;
+import br.cefetmg.inf.tp.domain.Usuario;
+import br.cefetmg.inf.tp.service.IManterUsuario;
 import tp.model.service.impl.ManterUsuario;
-import tp.util.db.exception.NegocioException;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.util.db.exception.NegocioException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 
 
 public class inserirUsuario extends HttpServlet {

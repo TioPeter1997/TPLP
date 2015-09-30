@@ -2,10 +2,10 @@ package tp.model.service.impl;
 
 import tp.model.dao.IFornecedorDAO;
 import tp.model.dao.impl.FornecedorDAO;
-import tp.domain.Fornecedor;
-import tp.service.IManterFornecedor;
-import tp.util.db.exception.NegocioException;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.domain.Fornecedor;
+import br.cefetmg.inf.tp.service.IManterFornecedor;
+import br.cefetmg.inf.tp.util.db.exception.NegocioException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 import java.util.List;
 
 public class ManterFornecedor implements IManterFornecedor {

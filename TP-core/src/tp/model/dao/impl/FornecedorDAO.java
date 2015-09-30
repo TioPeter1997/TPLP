@@ -1,13 +1,13 @@
 package tp.model.dao.impl;
 
 import tp.model.dao.IFornecedorDAO;
-import tp.domain.Fornecedor;
+import br.cefetmg.inf.tp.domain.Fornecedor;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import tp.util.db.ConnectionManager;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 
 public class FornecedorDAO implements IFornecedorDAO {
 

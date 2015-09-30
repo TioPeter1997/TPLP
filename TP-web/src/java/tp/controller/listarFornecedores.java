@@ -11,10 +11,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import tp.domain.Fornecedor;
-import tp.service.IManterFornecedor;
+import br.cefetmg.inf.tp.domain.Fornecedor;
+import br.cefetmg.inf.tp.service.IManterFornecedor;
 import tp.model.service.impl.ManterFornecedor;
-import tp.util.db.exception.PersistenciaException;
+import br.cefetmg.inf.tp.util.db.exception.PersistenciaException;
 
 /**
  *
